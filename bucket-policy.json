@@ -1,0 +1,13 @@
+{
+ 	"Version": "2012-10-17",
+ 	"Statement": [
+   	{
+    		"Effect": "Allow",
+   		"Principal":"*" ,
+		"Action": "s3:PutBucketPolicy",
+		"Resource": "arn:aws:s3:::var.s3_bucker_names[count.index]"
+	}
+
+	]
+}
+			

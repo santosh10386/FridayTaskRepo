@@ -1,0 +1,5 @@
+s3_bucket_names = ["crazy-weather-hourly","crazy-weather-daily","crazy-weather-weekly"]
+region = "eu-central-1"
+access_key = "AKIARKW3GRV2GDIOSY7I"
+secret_key = "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"
+
